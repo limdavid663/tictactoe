@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="announcment">X Turn</h1>
+    <dialog>
+        <form action="">
+            <div>
+                <label for="player1-name">Player<span>X</span> Name</label>
+                <input type="text" id="player1-name">
+            </div>
+            <div>
+                <label for="player2-name">Player<span>O</span> Name</label>
+                <input type="text" id="player2-name">
+            </div>
+        </form>
+        <input type="submit" value="Submit" id="submit">
+    </dialog>
+    <div class="container">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <button id="restart">Restart</button>
+    <script src="app.js"></script>
+</body>
+</html>
